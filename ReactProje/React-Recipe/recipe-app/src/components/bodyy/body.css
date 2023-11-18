@@ -1,0 +1,7 @@
+.body {
+    background-color: rgb(208, 193, 205);
+    height: 400vh;
+    position:relative;
+    z-index: -1;
+    margin-top: -2000px;
+}

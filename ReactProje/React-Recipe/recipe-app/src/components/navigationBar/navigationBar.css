@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  
+  background: linear-gradient(to top,rgb(122, 85, 114), #9e809d, rgb(122, 85, 114));
+  color: rgb(7, 6, 6);
+  padding: 10px 20px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.recipe {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: auto;
+  padding-left: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: start;
+}
+
+.navbar a {
+  color: #060505;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 20px;
+  transition: transform 0.3s;
+}
+
+.navbar a:hover {
+  color: rgb(216, 213, 213);
+}

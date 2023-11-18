@@ -1,0 +1,79 @@
+.card {
+  background-color: rgb(169, 131, 160);
+  width: 210px;
+  height: 350px;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 20px 20px 20px 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card h1 {
+  margin-top: 10px;
+  font-size: large;
+  color: #090808; 
+  margin-bottom: 5px; 
+}
+
+.card p {
+  margin-top: 0;
+  font-size:smaller;
+  color: #090808;
+  margin-bottom: 10px;
+  text-align: center; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; 
+  padding: 0 10px; /* Sağ ve sol boşlukları doldur */
+  box-sizing: border-box; 
+}
+
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  background-color: rgb(140, 101, 130);
+}
+
+.card img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.4);
+}
+
+.card button {
+  width: 80%;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(208, 193, 205);
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  color: rgb(6, 5, 5);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.card button img {
+  width: 10px;
+}
+.card button:hover {
+  background-color: rgb(160, 11, 11);
+}
+
+
